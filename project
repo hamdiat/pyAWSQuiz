@@ -1,0 +1,51 @@
+answer = input("A user needs a quick way to determine if any Amazon EC2 instances have ports that allow unrestricted access.
+Which AWS service will support this requirement? ")
+if answer.lower() == "trusted advisor":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("Which feature can you use to grant read/write access to an Amazon S3 bucket?")
+if answer.lower() == "IAM Policy":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("In what language are policy documents written? ")
+if answer.lower() == "JSON":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+ 
+answer = input("lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running.")
+if answer.lower() == "AWS lambda":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("A multi-national company wants to migrate its IT infrastructure to AWS Cloud and is looking for a concierge support team as well as a response time of around an hour in case the systems go down. As a Cloud Practitioner, which support plan would you recommend to the company?")	
+if answer.lower() == "enterprise":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("Which AWS service would you use to send alerts when the costs for your AWS account exceed your budgeted amount?")
+if answer.lower() == "AWS budgets":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("Which AWS service helps you define your infrastructure as code?")
+
+if answer.lower() == "AWS CloudFormation":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
