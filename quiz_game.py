@@ -1,6 +1,19 @@
 # Adding a comment to this file
 # Add a second comment to this file
 #adding comment
+
+question_arr = ["What is the full meaning of Amazon SNS? ",
+"What does EC2 stand for? ", "What does IAM stand for? ", 
+"What does IAM stand for? ", "What is the full meaning of ECR? ", 
+"What does ECS stand for? ", "What does AMI stand for? ", 
+"What does AMI stand for? ", "What does AZ stand for? ", 
+"What does DMS stand for? ", "What does EKS stand for? ", 
+"What does EBS stand for? ", "What does CLI stand for? ",
+"What does CIDR stand for? ", "What does DDoS stand for? ",
+"What does SWF stand for? ", "What does RDS stand for? ",
+"What does JSON stand for? "]
+ans_arr = ["simple notification service", 
+"elastic compute cloud",]
 print("Welcome to our AWS Acronym Quiz!")
 
 playing = input("Are you ready to play? ")
