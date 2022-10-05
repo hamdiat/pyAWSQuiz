@@ -1,3 +1,5 @@
+# Adding a comment to this file
+
 print("Welcome to our AWS Acronym Quiz!")
 
 playing = input("Are you ready to play? ")
@@ -10,7 +12,7 @@ print("Okay! Let's play :)")
 score = 0
 
 answer = input("What is the full meaning of Amazon SNS? ")
-if answer.lower() == "simple notification system":
+if answer.lower() == "simple notification service":
     print("Correct!")
     score += 1
 else:
