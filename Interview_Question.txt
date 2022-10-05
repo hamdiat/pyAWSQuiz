@@ -1,0 +1,12 @@
+I know that it’s become more and more helpful to know Python in the context of finance, so I plan on learning it this year. It will come in handy when solving portfolio optimization problems. As far as long-term goals, I would like to become a part-time professor at Y university. I have given some guest lectures there and really enjoyed it. The flexible hours are also very beneficial as they allow me to keep another job as well.
+
+
+What are your career goals in tech?
+Reply: I know that it’s become more and more helpful to know programming in today's world, so I plan on advancing my skills through taking on relevant projects to business needs and develop myself alongside.Especially when solving portfolio optimization problems.I would like to take industry certifications relevant to my job position.
+
+Interview Questions
+====================
+* Please list any other relevant skills, tools and/or certifications that you have.
+* Please tell us a little bit about yourself. What has been your pathway in tech so far?
+* What are your career goals in tech?
+* Where are you looking to work?
