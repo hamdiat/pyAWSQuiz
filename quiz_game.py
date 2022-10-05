@@ -1,3 +1,5 @@
+# Adding a comment to this file
+# Add a second comment to this file
 print("Welcome to our AWS Acronym Quiz!")
 
 playing = input("Are you ready to play? ")
@@ -10,7 +12,7 @@ print("Okay! Let's play :)")
 score = 0
 
 answer = input("What is the full meaning of Amazon SNS? ")
-if answer.lower() == "simple notification system":
+if answer.lower() == "simple notification service":
     print("Correct!")
     score += 1
 else:
@@ -78,7 +80,49 @@ if answer.lower() == "elastic block store":
     score += 1
 else:
     print("Incorrect!")
+    
+    answer = input("What does CLI stand for? ")
+if answer.lower() == "command line interface":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+    answer = input("What does CIDR stand for? ")
+if answer.lower() == "classless inter-domain routing":
+    print("Correct! Great job!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+    answer = input("What does DDoS stand for? ")
+if answer.lower() == "distributed denial of service":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect! Oh no, better luck next time!")
+    
+    answer = input("What does SWF stand for? ")
+if answer.lower() == "simple workflow service":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("What does RDS stand for? ")
+if answer.lower() == "relational database service":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    
+answer = input("What does JSON stand for? ")
+if answer.lower() == "javascript object notation":
+    print("Correct! Woohoo, way to go!")
+    score += 1
+else:
+    print("Incorrect!")
 
 print("You got " + str(score) + " questions correct!")
-print("That is " + str((score / 10) * 100) + "%.")
+print("That is " + str((score / 16) * 100) + "%.")
 print("We hope that was fun! Do come back again! :)")
